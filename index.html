@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+
+  <title>Crystal Collector</title>
+</head>
+<h1>Crystal Collector</h1>
+<body>
+<div class="container-fluid">
+
+  <div class="row" id = "directions">
+    <div class="col-9 bg-danger mx-1 my-2">
+      <p>You will be given a random number at the start of the game.</p>
+      <p>There are four crystals below.  By clicking on a crystal you will add a specific number of points to your total score.</p>
+      <p>You win the game by matching your total score to the random target score.  You lose the game if your total score goes over the target score.</p>
+      <p>The value of each crystal is hidden until you click on it.</p>
+      <p>Each time the game starts, the values of the crystals will change.</p>
+    </div>
+    <div class="col-3">
+      
+    </div>
+  </div>
+
+  
+  <div class="row my-2">
+    <div class="col-3 bg-info mx-1">
+      <h3>Target Score: <span id = "target-score"></span></h3>
+    </div>
+    <div class="col-2 bg-info mx-1">
+      <div class = "row">
+        <span id = "wins">Wins: </span>
+      </div>
+      <div class="row">
+        <span id = "losses">Losses: </span>
+      </div>
+    </div>
+    <div class="col-7">
+      
+    </div>
+  </div>
+
+  <div class="row" id = "crystals" class = "crystal-image">
+    <div class="col-2" id = "red-crystal"><button id = "ruby"><img src = "assets/images/red_crystal.jpg" alt = "red gem"></button></div>
+    <div class="col-2" id = "blue-crystal"><button id = "saphire"><img src = "assets/images/blue_crystal.jpeg" alt = "blue gem"></button></div>
+    <div class="col-2" id = "green-crystal"><button id = "emerald"><img src = "assets/images/green_crystal.png" alt = "green gem"></button></div>
+    <div class="col-2" id = "yellow-crystal"><button id = "topaz"><img src = "assets/images/yellow_crystal.jpg" alt = "yellow gem"></button></div>
+    
+  </div>
+
+  <div class="row my-2">
+    <div class="col-3 bg-success mx-1" id = "total-score">
+      <strong>Your total score is: </strong>
+    </div>
+    <div class="col-9">
+      
+    </div>
+  </div>
+
+  <div class="row my-2">
+    <div class="col-3 bg-success mx-1" id = "counter">
+    </div>
+    <div class="col-9">
+      
+    </div>
+  </div>
+
+</div>
+
+
+  <script src = "assets/javascript/game.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
