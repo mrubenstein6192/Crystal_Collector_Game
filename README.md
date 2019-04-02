@@ -1,1 +1,1 @@
-# Crytal_Collecotr_Game
+# Crystal_Collector_Game
