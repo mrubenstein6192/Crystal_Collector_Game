@@ -46,13 +46,6 @@ for (var i = 0; i < crystalNumbers.length; i++) {
     $("#losses").text("Losses: " + losses);
     newGame();
   }
-}
-
-
-
-
-
-
-
+});
 
 });
