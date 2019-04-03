@@ -10,10 +10,10 @@ If the user adds the crystals up exactly to the target, he/she wins and the game
 I began this activity with the layout, including the different images for each of the crystals.  As a result, the logic in my javascript has not been achieving what I expected. 
 
 ##Languages
-HTML
-CSS
-Javascript
-JQuery
+-HTML
+-CSS
+-Javascript
+-JQuery
 
 ##Contributors
 Mike Rubenstein
