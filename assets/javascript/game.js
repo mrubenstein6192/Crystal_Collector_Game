@@ -68,13 +68,13 @@ $(document).ready(function() {
     // If total score === target score, user wins; add 1 to wins and write to page
     if (totalScore === targetNumber) {
       wins++;
-      $wins.text(wins);
+      $wins.text("Wins: " + wins);
       gameRunning = false;
     }
     // If total score > target score, user loses; add 1 to losses and write to page
     else if (totalScore > targetNumber) {
       losses++;
-      $losses.text(losses);
+      $losses.text("Losses: " + losses);
       gameRunning = false;
     };
     

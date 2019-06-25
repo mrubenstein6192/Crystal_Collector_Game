@@ -12,65 +12,62 @@
 
   <title>Crystal Collector</title>
 </head>
-<h1>Crystal Collector</h1>
 <body>
+<div class="jumbotron">
+<h1>Crystal Collector</h1>
+
+  
 <div class="container-fluid">
 
   <div class="row" id = "directions">
-    <div class="col-9 bg-danger mx-1 my-2">
-      <p>You will be given a random number at the start of the game.</p>
-      <p>There are four crystals below.  By clicking on a crystal you will add a specific number of points to your total score.</p>
-      <p>You win the game by matching your total score to the random target score.  You lose the game if your total score goes over the target score.</p>
-      <p>The value of each crystal is hidden until you click on it.</p>
-      <p>Each time the game starts, the values of the crystals will change.</p>
+    <div class="col-12 my-2">
+      <ul>
+      <li>You will be given a random number at the start of the game.</li>
+      <li>There are four crystals below.  By clicking on a crystal you will add a specific number of points to your total score.</li>
+      <li>You win the game by matching your total score to the random target score.  You lose the game if your total score goes over the target score.</li>
+      <li>The value of each crystal is hidden until you click on it.</li>
+      <li>Each time the game starts, the values of the crystals will change.</li>
+      </ul>
     </div>
-    <div class="col-3">
-      <button id="newGameBtn" class="btn btn-lg btn-secondary">Start a New Game</button>
-    </div>
+    <div class="mx-auto">
+        <button id="newGameBtn" class="btn btn-lg btn-danger">Start a New Game</button>
+      </div>
   </div>
-
+</div>
+</div>
   
   <div class="row my-2">
-    <div class="col-3 bg-info mx-1">
-      <h3>Target Score: <span id = "targetNumber"></span></h3>
-    </div>
-    <div class="col-2 bg-info mx-1">
-      <div class = "row">
-        <span id = "wins">Wins: </span>
-      </div>
+    
+    <div class="col-5">
       <div class="row">
-        <span id = "losses">Losses: </span>
+        <div class="col-6 bg-info mx-1">
+            <h3>Target Score: <span id = "targetNumber"></span></h3>
+        </div>
+        <div class="col-5 bg-warning mx-1">
+          <div class = "row">
+            <span id = "wins">Wins: </span>
+          </div>
+          <div class="row">
+           <span id = "losses">Losses: </span>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-7">
-      
+  <div class="col-2"> 
+    <div class="row bg-success">
+      Your Total Score is: 
     </div>
+    <div class="row">
+    <div class="col-12 bg-success" id = "totalScore">
+    </div>
+    </div>
+  </div>
+       
   </div>
 
 <div class="row" id = "crystals">
-    <!-- <div class="col-2" id = "red-crystal"><button id = "ruby"><img src = "assets/images/red_crystal.jpg" alt = "red gem"></button></div>
-    <div class="col-2" id = "blue-crystal"><button id = "saphire"><img src = "assets/images/blue_crystal.jpeg" alt = "blue gem"></button></div>
-    <div class="col-2" id = "green-crystal"><button id = "emerald"><img src = "assets/images/green_crystal.png" alt = "green gem"></button></div>
-    <div class="col-2" id = "yellow-crystal"><button id = "topaz"><img src = "assets/images/yellow_crystal.jpg" alt = "yellow gem"></button></div> -->
-    
-  </div>
-
-  <div class="row my-2">
-    <div class="col-3 mx-1">
-      <strong>Your total score is: </strong>
-    </div>
-    <div class="col-9">
-      
-    </div>
-  </div>
-
-  <div class="row my-2">
-    <div class="col-3 bg-success mx-1" id = "totalScore">
-    </div>
-    <div class="col-9">
-      
-    </div>
-  </div>
+  
+</div>
 
 </div>
 
