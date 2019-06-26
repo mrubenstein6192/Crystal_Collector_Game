@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  $("#gameplay").hide();
   // Create variables
   var targetNumber;
   var totalScore = 0;
@@ -19,6 +20,7 @@ $(document).ready(function() {
   
   function newGame(){
     $("#crystals").empty();
+    $("#gameplay").show();
     gameRunning = true;
     
     // Select a random target number and write to page
